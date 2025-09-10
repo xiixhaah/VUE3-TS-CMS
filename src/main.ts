@@ -18,5 +18,4 @@ for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
   app.component(key, component)
 }
 
-
-console.log('111')
+console.log('222')
