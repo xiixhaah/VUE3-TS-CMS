@@ -30,10 +30,13 @@
     "@vue/eslint-config-prettier": "^10.2.0",
     "@vue/eslint-config-typescript": "^14.5.0",
     "@vue/tsconfig": "^0.7.0",
+    "commitizen": "^4.3.1",
     "consola": "^3.4.2",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^9.22.0",
     "eslint-plugin-prettier": "^5.5.4",
     "eslint-plugin-vue": "~10.0.0",
+    "husky": "^8.0.0",
     "jiti": "^2.4.2",
     "less": "^4.4.0",
     "npm-run-all2": "^7.0.2",
@@ -44,7 +47,11 @@
     "vite": "^6.2.4",
     "vite-plugin-style-import": "^2.0.0",
     "vite-plugin-vue-devtools": "^7.7.2",
-    "vue-tsc": "^2.2.8",
-    "husky": "^8.0.0"
+    "vue-tsc": "^2.2.8"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }

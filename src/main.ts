@@ -13,17 +13,10 @@ app.use(store)
 app.use(router)
 app.mount('#app')
 
-
-
-
-
-
-
-
-
-
-
 // 注册图标
 for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
   app.component(key, component)
 }
+
+
+console.log('111')
