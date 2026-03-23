@@ -36,7 +36,6 @@ function handleNewClick() {
 }
 // 编辑用户操作
 function handleEditClick(userInfo: any) {
-  console.log(userInfo)
   modelRef.value?.setModelVisible(false, userInfo)
 }
 </script>

@@ -55,10 +55,10 @@ const useLoginStore = defineStore('login', {
       const routes = mapMenusToRoutes(userMenu)
       routes.forEach((route) => router.addRoute('main', route))
 
-      console.log(
-        '完整路由列表:',
-        router.getRoutes().map((r) => r.path)
-      )
+      // console.log(
+      //   '完整路由列表:',
+      //   router.getRoutes().map((r) => r.path)
+      // )
 
       //3.登陆成功跳转到/main页面
       router.push('/main')
