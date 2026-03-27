@@ -3,7 +3,7 @@
     <!-- 1.logo -->
     <div class="logo">
       <img class="img" src="@/assets/img/logo.svg" />
-      <h2 v-show="!isFlod" class="title">企业后台管理系统</h2>
+      <h2 v-show="!isFlod" class="title">后台管理系统</h2>
     </div>
 
     <!-- 2.menu -->
