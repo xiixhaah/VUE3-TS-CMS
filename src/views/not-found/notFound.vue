@@ -1,6 +1,6 @@
 <template>
   <div class="not-Found">
-    <h2>你输入的地址错误，请确认后再输入</h2>
+    <h2>404 NOT FIND</h2>
   </div>
 </template>
 
